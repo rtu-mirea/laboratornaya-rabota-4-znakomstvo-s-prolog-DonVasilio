@@ -92,16 +92,6 @@ clauses
 		have(galleon,board).
 		
 goal
-	/*%test1
-	standOnRaid(galleon,port), 
-	deliveredOn(stranger, dock), 
-	situateOn(stranger, dock),
-	situateOn(boat, dock),
-	situateOn(stranger, port),
-	returnOn(boat, galleon),
-	mooredTo(boat, board),
-	know(stranger, way).*/
-	/*%test2
 	standOnRaid(galleon,port), 
 	deliveredOn(X, Y), 
 	situateOn(X, Y),
@@ -109,4 +99,4 @@ goal
 	situateOn(X, port),
 	returnOn(Z, galleon),
 	mooredTo(Z, board),
-	know(X, way).*/
+	know(X, way).
